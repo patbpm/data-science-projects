@@ -404,7 +404,7 @@ trend_grouped_africa_food_prod_data_df.set(Title =  'Food Producing Countries')
 
 
     
-![alt](({{ site.url }}{{ site.baseurl }}/images/Hamoye_stage_c/Hamoye_stage_c_15_1.png)
+![png](({{ site.url }}{{ site.baseurl }}/images/Hamoye_stage_c/Hamoye_stage_c_15_1.png)
 ![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
     
 
