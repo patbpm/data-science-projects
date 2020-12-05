@@ -104,11 +104,7 @@ question = df.iloc[0]
 with pd.option_context("display.max_rows", 1000):
  for k, v in question.items():
     print(k, v)
- 
-
-
 ```
-```python
     Time from Start to Finish (seconds) Duration (in seconds)
     Q1 What is your age (# years)?
     Q2 What is your gender? - Selected Choice
@@ -464,7 +460,7 @@ with pd.option_context("display.max_rows", 1000):
     Q35_B_Part_9 In the next 2 years, do you hope to become more familiar with any of these tools for managing ML experiments? (Select all that apply) - Selected Choice -  Domino Model Monitor 
     Q35_B_Part_10 In the next 2 years, do you hope to become more familiar with any of these tools for managing ML experiments? (Select all that apply) - Selected Choice - None
     Q35_B_OTHER In the next 2 years, do you hope to become more familiar with any of these tools for managing ML experiments? (Select all that apply) - Selected Choice - Other
-```    
+  
 
 
 ```python
