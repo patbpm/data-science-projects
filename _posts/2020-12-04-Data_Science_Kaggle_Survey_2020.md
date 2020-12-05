@@ -2352,48 +2352,8 @@ data = [ dict(
             title = 'Responders'),
       ) ]
 
-layout = dict(
-    title = 'Responders by country',
-    geo = dict(
-        showframe = False,
-        showcoastlines = False,
-        projection = dict(
-            type = 'Mercator'
-        )
-    )
-)
 
-fig = dict( data=data, layout=layout )
-iplot( fig, validate=False, filename='d3-world-map' )
-```
-
-
-<div>                            <div id="350bf5dc-19a9-41e6-9a8e-e7fbf2633351" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("350bf5dc-19a9-41e6-9a8e-e7fbf2633351")) {                    Plotly.newPlot(                        "350bf5dc-19a9-41e6-9a8e-e7fbf2633351",                        [{"autocolorscale": false, "colorbar": {"autotick": false, "title": "Responders"}, "colorscale": "Viridis", "locations": ["IND", "USA", "BRA", "JPN", "RUS", "GBR", "NGA", "CHN", "DEU", "TUR", "ESP", "FRA", "CAN", "IDN", "PAK", "TWN", "ITA", "AUS", "MEX", "EGY", "COL", "UKR", "IRN", "KEN", "NLD", "SGP", "POL", "VNM", "BGD", "ZAF", "ARG", "MAR", "MYS", "THA", "PRT", "GRC", "TUN", "PHL", "ISR", "PER", "CHL", "SWE", "SAU", "LKA", "CHE", "NPL", "ROU", "BEL", "BLR", "ARE", "IRL", "GHA"], "marker": {"line": {"color": "rgb(180,180,180)", "width": 0.5}}, "reversescale": true, "text": ["India", "United States", "Brazil", "Japan", "Russia", "United Kingdom", "Nigeria", "China", "Germany", "Turkey", "Spain", "France", "Canada", "Indonesia", "Pakistan", "Taiwan", "Italy", "Australia", "Mexico", "Egypt", "Colombia", "Ukraine", "Iran", "Kenya", "Netherlands", "Singapore", "Poland", "Vietnam", "Bangladesh", "South Africa", "Argentina", "Morocco", "Malaysia", "Thailand", "Portugal", "Greece", "Tunisia", "Philippines", "Israel", "Peru", "Chile", "Sweden", "Saudi Arabia", "Sri Lanka", "Switzerland", "Nepal", "Romania", "Belgium", "Belarus", "United Arab Emirates", "Ireland", "Ghana"], "type": "choropleth", "z": [5851, 2237, 694, 638, 582, 489, 476, 474, 404, 344, 336, 330, 301, 290, 283, 267, 267, 231, 227, 179, 177, 170, 162, 153, 151, 149, 148, 147, 143, 141, 134, 133, 133, 132, 122, 111, 99, 99, 97, 95, 85, 78, 76, 72, 68, 62, 61, 60, 59, 59, 54, 52]}],                        {"geo": {"projection": {"type": "Mercator"}, "showcoastlines": false, "showframe": false}, "title": "Responders by country"},                        {"responsive": true}                    ).then(function(){
-
-var gd = document.getElementById('350bf5dc-19a9-41e6-9a8e-e7fbf2633351');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-
-
+        
 This plot shows clearly that most respondent are from India, USA and Brazil. 
 
 There is not a lot of aspiring Data scientist in Africa, as the Map show only few countries such as South Africa and Nigeria. 
