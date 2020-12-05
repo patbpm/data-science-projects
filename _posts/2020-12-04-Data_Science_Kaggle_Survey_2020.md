@@ -2392,7 +2392,6 @@ if (outputEl) {{
     x.observe(outputEl, {childList: true});
 }}
 
-                        })                };                });            </script>        </div>
 
 
 This plot shows clearly that most respondent are from India, USA and Brazil. 
